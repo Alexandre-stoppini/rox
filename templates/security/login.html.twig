@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+<body>
+<main>
+    <form action="{{ path('login') }}" method="post">
+
+        {% if error %}
+            <p>Erreur lors de l'authentification</p>
+        {% endif %}
+
+        <div>
+            <label for="username">username</label>
+            <input type="text" name="_username" id="username">
+        </div>
+        <div>
+            <label for="password">mdp</label>
+            <input type="password" name="_password" id="password">
+        </div>
+
+       <button type="submit">connect</button>
+    </form>
+</main>
+</body>
+</html>

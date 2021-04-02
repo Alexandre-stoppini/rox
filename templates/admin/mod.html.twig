@@ -1,0 +1,21 @@
+{% extends "base.html.twig" %}
+{% block header %}
+{% endblock %}
+{% block main %}
+
+    {{ form_start(form) }}
+
+    {{ form_label(form.name, "type menu") }}
+
+    {{ form_widget(form.name) }}
+
+    {{ form_label(form.file, "menu") }}
+
+    {{ form_widget(form.file) }}
+
+    <button type="submit">Ajouter</button>
+
+    {{ form_end(form) }}
+{% endblock %}
+{% block footer %}
+{% endblock %}

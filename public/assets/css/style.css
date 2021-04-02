@@ -1,0 +1,138 @@
+#logo {
+    width: 200px;
+    height: 193px;
+
+}
+
+#tel {
+    width: 22px;
+    height: 22px;
+}
+
+#sphere {
+    width: 32px;
+    height: 32px;
+}
+
+#tele {
+    display: flex;
+}
+
+
+#image_fond {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+#bienvenue {
+    color: white;
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    margin-left: 45%;
+}
+
+#header {
+    background-color: white;
+    opacity: 0.60;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    height: 193px;
+}
+
+#element {
+    position: absolute;
+    z-index: 3;
+}
+
+
+#col_header_1 {
+    margin-top: 50%;
+}
+
+#col_header_2 {
+    margin-top: 25%;
+}
+
+
+#menu {
+    width: 100%;
+    height: 165px;
+    background-color: #66BEC2;
+    position: absolute;
+    top: 890px; /* TODO: faire une fonction js permettant d'ajuster la hauteur de cet élément par rapport à la photo au dessus de lui*/
+}
+
+#txt {
+    text-align: center;
+    line-height: 160px;
+}
+
+#vignette {
+    position: relative;
+    margin-top: 50px;
+}
+
+#vignette_1, #vignette_2, #vignette_3 {
+    width: 436px;
+    height: 449px;
+}
+
+
+#nosotros {
+    width: 100%;
+    height: 165px;
+    background-color: #66BEC2;
+    position: absolute;
+    top: 1600px; /* TODO: faire une fonction js permettant d'ajuster la hauteur de cet élément par rapport au menu au dessus de lui*/
+}
+
+#div_nosotros {
+    margin-top: 75px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    width: 75%;
+    height: auto;
+    position: relative;
+}
+
+#txt_nosotros {
+    text-align: center;
+}
+
+#equipe {
+    display: block;
+    height: 1073px;
+    width: 954px;
+    margin-top: 75px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#footer {
+    width: 100%;
+    position: absolute;
+    top: 3300px;
+    background-color: #66BEC2;
+    height: 248px;
+}
+
+#retrouver {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#remblais {
+    position: absolute;
+    top: 4800px;
+    width: 100%;
+    height: 500px;
+}
+
+a {
+    color: inherit;
+}

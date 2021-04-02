@@ -1,0 +1,7 @@
+{%  for key, menu in menus %}
+
+<img alt="{{ menu.name }}" src="data:image/pdf;base64,{{ images[key] }}">
+ <a href="{{ images[key] }}">{{ menu.name }}</a>
+
+{% endfor %}
+
